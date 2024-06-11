@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tau-intro-to-pytest"
+version = "0.1.0"
+description = ""
+authors = ["Lexi"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
